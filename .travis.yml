@@ -9,7 +9,7 @@ matrix:
     python: "3.6"
     env: TEST_SUITE=suite_3_6_unit
 script: 
-  - python3 Porfolio_2/master/EduTrax_Test.py
-  - coverage run Porfolio_2/master/EduTrax_Test.py
+  - python3 EduTrax_Test.py
+  - coverage run EduTrax_Test.py
 after_success:
   - bash <(curl -s https://codecov.io/bash)
