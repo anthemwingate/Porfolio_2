@@ -10,6 +10,9 @@
 #Notes             : Thank you <insert name> at the Pomeroy Kananaskis Mountain Lodge for the naming assist.
 # https://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
 
+import coverage
+""" imports Coverage module """
+
 import os 
 """ imports OS module """
 

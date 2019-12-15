@@ -8,6 +8,9 @@
 
 """ automated tests for AWingatehw10_v2.5 rev.py """
 
+import coverage
+""" imports Coverage module """
+
 import os 
 """ imports OS module """
 

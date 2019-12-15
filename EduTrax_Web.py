@@ -6,6 +6,9 @@
 #Revision History  : Version 2
 #Notes  : Additional revision made for interview submission.
 
+import coverage
+""" imports Coverage module """
+
 import os 
 """ imports OS module """
 
