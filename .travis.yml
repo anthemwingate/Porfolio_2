@@ -1,0 +1,15 @@
+language: python
+python:
+  - 3.6
+install:
+  - pip install -r requirements.txt
+matrix:
+  include:
+  - name: "3.6 Unit Test"
+    python: "3.6"
+    env: TEST_SUITE=suite_3_6_unit
+script: 
+  - python3 EduTrax.py
+  - coverage run EduTrax.py
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
